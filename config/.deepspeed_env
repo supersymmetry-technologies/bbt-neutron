@@ -1,0 +1,17 @@
+NCCL_P2P_DISABLE=0
+NCCL_IB_DISABLE=0
+TORCH_USE_CUDA_DSA=0
+NCCL_DEBUG=WARN
+# NCCL_SOCKET_IFNAME=eth0
+# NCCL_IB_GID_INDEX=0
+# NCCL_IB_TIMEOUT=25
+# NCCL_IB_RETRY_CNT=7
+CUDA_HOME=/usr/local/cuda
+CUTLASS_PATH=/opt/cutlass
+# PYTORCH_CUDA_ALLOC_CONF="expandable_segments:True"
+CUDA_HOME=/usr/local/cuda
+CUTLASS_PATH=/opt/cutlass
+# TORCH_CUDA_ARCH_LIST="8.0 9.0+PTX"
+PATH=/opt/openmpi/bin:/usr/local/cuda/bin:/usr/lib/jvm/default-java/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+LD_LIBRARY_PATH=/opt/openmpi/lib:/usr/local/cuda/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64
+LIBRARY_PATH=/usr/local/cuda/lib64:/usr/local/cuda/lib64/stubs
