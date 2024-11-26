@@ -50,7 +50,7 @@ The performance of BBT-Neutron is then benchmarked with the task of JoI, a chall
 ## 2. Model Architecture
 
 <div align="center" style="display: flex; justify-content: center;">
-    <img src="./figures/BBT_model_arch.png?raw=true" style="height:300px; width:auto; margin-right:10px">
+    <img src="./figures/BBT_model_arch.png?raw=true" style="height:600px; width:auto; margin-right:10px">
 </div>
 
 ## 3. Data Processing
