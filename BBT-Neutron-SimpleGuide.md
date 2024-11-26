@@ -58,7 +58,7 @@ bbt-neutron/
 
 ## Data Pre-processing
 
-Binary pre-processing of the `jsonl` format datasets is required, if you use none streaming data transmission (which means reading all the datasets at once).
+Binary pre-processing of the `jsonl` format datasets is required, if you use non-streaming training mode (which means reading all the datasets at once).
 
 Data pre-processing is done by directly running `data/data_utils.py`. It's implemented by three functions, namely `preprocess_dataset()`, `merge_datasets()` and `merge_dataset_dict()`.
 
@@ -103,7 +103,7 @@ To speed up this procedure, you need to manually split a larger `.jsonl` file in
 
 Input parameters of `preprocess_dataset` function：
 1. `file_paths`：A list of paths containing all the `.jsonl` files used for the task.
-2. `dataset_type`：Type of the take.
+2. `dataset_type`：Type of the task.
 3. `save_dir`：Directory to save the output files after pre-processing.
 4. `block_size`：Set block_size, consistent with `pretrain.sh`.
 5. `patch_size`：Set patch_size，consistent with `pretrain.sh`.
