@@ -41,11 +41,9 @@
 
 ## 2. 模型架构
 
-<p align="center">
-<div style="display: flex; justify-content: center;">
-    <img src="./figures/BBT_model_arch.png?raw=true" style="height:300px; width:auto; margin-right:10px">
+<div align="center" style="display: flex; justify-content: center;">
+    <img src="./figures/BBT_model_arch.png?raw=true" style="height:600px; width:auto; margin-right:10px">
 </div>
-</p>
 
 ## 3. 数据处理
 
