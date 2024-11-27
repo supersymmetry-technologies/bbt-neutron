@@ -39,13 +39,7 @@
 
 ## 1. Introduction
 
-Traditional Large Language Models have been facing the problem of numeric handling. This limitation significantly hinders the capacity of general LLMs to address complex, real-world scientific problems. A new paradigm for task-agnostic architecture in scientific computing is therefore required to enable in-context learning and to uncover scaling laws applicable to experimental data analysis.
-
-To address this requirement, we have developed Binary Big Bang Transformer (BBT-Neutron), a task-agnostic large language model architecture specifically designed for scientific tasks, featuring an innovative number tokenization approach called Binary Tokenization. 
-
-Unlike traditional tokenization methods in LLMs, this technique encodes input data as byte sequences using UTF-8, preserving the inherent structure of numerical data and preventing ambiguities introduced by fragmenting or merging numeric and textual data.
-
-The performance of BBT-Neutron is then benchmarked with the task of JoI, a challenge and critical classification algorithm for the experimental particle physics using high energy collider.
+For decades, researchers have developed task-specific models to address scientific challenges across diverse disciplines. Recently, large language models (LLMs) have shown enormous capabilities in handling general tasks; however, these models encounter difficulties in addressing real-world scientific problems, particularly in domains involving large-scale numerical data analysis, such as experimental high- energy physics. This limitation is primarily due to BPE tokenization’s inefficacy with numerical data. In this paper, we propose a task-agnostic architecture, BBT- Neutron, which employs a binary tokenization method to facilitate pretraining on a mixture of textual and large-scale numerical experimental data. We demonstrate the application of BBT-Neutron to Jet Origin Identification (JoI), a critical categorization challenge in high-energy physics that distinguishes jets from various quarks or gluons. Our results indicate that BBT-Neutron achieves comparable performance to state-of-the-art task-specific JoI models. Furthermore, we exam- ine the scaling behavior of BBT-Neutron’s performance with increasing data size, suggesting the potential for BBT-Neutron to serve as a foundational model for particle physics data analysis, with possible extensions to a broad spectrum of scientific computing applications for Big Science experiments, industrial manufacturing and spacial computing.
 
 ## 2. Model Architecture
 
