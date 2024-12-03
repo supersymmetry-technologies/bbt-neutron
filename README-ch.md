@@ -13,10 +13,10 @@
 
 
 <div align="center" style="line-height: 1;">
-  <a href="BBT-Neutron/LICENSE-CODE at main · ssymmetry/bbt-neutron" style="margin: 2px;">
+  <a href="https://github.com/supersymmetry-technologies/bbt-neutron/blob/main/LICENSE" style="margin: 2px;">
     <img alt="Code License" src="https://img.shields.io/badge/Code_License-MIT-f5de53?&color=f5de53" style="display: inline-block; vertical-align: middle;"/>
   </a>
-  <a href="BBT-Neutron/LICENSE-MODEL at main · ssymmetry/bbt-neutron" style="margin: 2px;">
+  <a href="https://github.com/supersymmetry-technologies/bbt-neutron/blob/main/LICENSE-MODEL" style="margin: 2px;">
     <img alt="Model License" src="https://img.shields.io/badge/Model_License-Model_Agreement-f5de53?&color=f5de53" style="display: inline-block; vertical-align: middle;"/>
   </a>
 </div>
@@ -30,7 +30,7 @@
 </div>
 
 <div align="center" style="line-height: 1;">
-  <a href="To be update soon"><b>论文链接</b>👁️</a>
+  <a href="https://arxiv.org/pdf/2412.00129"><b>论文链接</b>👁️</a>
 </div>
 
 # BBT-Neutron: 一个专为科学领域设计的多任务大语言模型

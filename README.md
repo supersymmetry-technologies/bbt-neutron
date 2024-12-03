@@ -13,10 +13,10 @@
 
 
 <div align="center" style="line-height: 1;">
-  <a href="BBT-Neutron/LICENSE at main · ssymmetry/bbt-neutron" style="margin: 2px;">
+  <a href="https://github.com/supersymmetry-technologies/bbt-neutron/blob/main/LICENSE" style="margin: 2px;">
     <img alt="Code License" src="https://img.shields.io/badge/Code_License-MIT-f5de53?&color=f5de53" style="display: inline-block; vertical-align: middle;"/>
   </a>
-  <a href="BBT-Neutron/LICENSE-MODEL at main · ssymmetry/bbt-neutron" style="margin: 2px;">
+  <a href="https://github.com/supersymmetry-technologies/bbt-neutron/blob/main/LICENSE-MODEL" style="margin: 2px;">
     <img alt="Model License" src="https://img.shields.io/badge/Model_License-Model_Agreement-f5de53?&color=f5de53" style="display: inline-block; vertical-align: middle;"/>
   </a>
 </div>
